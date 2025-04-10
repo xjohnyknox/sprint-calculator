@@ -56,11 +56,12 @@ Run the Docker container
 ```bash
 docker run -p 3000:3000 sprint-calculator
 ```
-#### Using the docker image from r.s.c.
+#### Using the docker image from dockerhub
 
 ```bash
-docker pull docker-all.repo.sonatype.com/cloudops/sprint-calculator:latest
-docker run -p 3000:3000 docker-all.repo.sonatype.com/cloudops/sprint-calculator:latest
+docker pull xjohnyx/sprint-calculator:latest
+docker run -p 3000:3000 xjohnyx/sprint-calculator:latest
+
 ```
 
 ### Usage
@@ -75,4 +76,4 @@ View the calculated target points for the sprint.
 Welcome contributions!
 
 ### Contact
-For any questions or feedback, please reach out at [johny@sonatype.com].
+For any questions or feedback, please reach out at [xjohnyx@icloud.com].
